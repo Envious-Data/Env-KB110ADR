@@ -1,2 +1,2 @@
-jlc-kicad-tools -n AdiKB . -o .\_out\ --include-all-component-groups
+jlc-kicad-tools -n EnvKB110ADR . -o .\_out\ --include-all-component-groups
 pause
