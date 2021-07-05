@@ -1,7 +1,7 @@
 # Env-KB110ADR
 A 110% keyboard made for a friend who wanted something for work.
 
-This also uses a raspberry pi pico but with a MCP23017 as the pi pico doesnt have enough exposed pins.
+well.. its now a 100% keyboard and no longer uses a rpi pico but hey... :cat2:
 
 - Project Name: Env-KB110ADR
 - Nickname: Victus
