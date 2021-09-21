@@ -3967,63 +3967,63 @@ F 3 "" H 12250 9600 50  0001 C CNN
 	1    12250 9600
 	1    0    0    -1  
 $EndComp
-Text GLabel 12700 11350 0    50   Input ~ 0
-col0
-Text GLabel 12700 11450 0    50   Input ~ 0
-col1
-Text GLabel 12700 11550 0    50   Input ~ 0
-col2
-Text GLabel 12700 11650 0    50   Input ~ 0
-col3
-Text GLabel 12700 11750 0    50   Input ~ 0
-col4
-Text GLabel 12700 11850 0    50   Input ~ 0
-col5
-Text GLabel 12700 11950 0    50   Input ~ 0
-col6
-Text GLabel 12700 12050 0    50   Input ~ 0
-col7
-Text GLabel 12700 12150 0    50   Input ~ 0
-col8
-Text GLabel 12700 12250 0    50   Input ~ 0
-col9
-Text GLabel 12700 12350 0    50   Input ~ 0
-col10
-Text GLabel 12700 12450 0    50   Input ~ 0
-col11
-Text GLabel 12700 12550 0    50   Input ~ 0
-col12
-Text GLabel 12700 12650 0    50   Input ~ 0
-col13
-Text GLabel 12700 12750 0    50   Input ~ 0
-col14
-Text GLabel 14000 11250 2    50   Input ~ 0
-col15
-Text GLabel 14000 11350 2    50   Input ~ 0
-col16
-Text GLabel 14000 11450 2    50   Input ~ 0
-col17
-Text GLabel 14000 11550 2    50   Input ~ 0
-col18
-Text GLabel 14000 11650 2    50   Input ~ 0
-col19
-Text GLabel 14000 11750 2    50   Input ~ 0
-col20
-Text GLabel 14000 11850 2    50   Input ~ 0
-col21
 Text GLabel 14000 11950 2    50   Input ~ 0
-col22
-Text GLabel 14000 12150 2    50   Input ~ 0
-row1
-Text GLabel 14000 12550 2    50   Input ~ 0
-row3
-Text GLabel 14000 12650 2    50   Input ~ 0
-row4
-Text GLabel 14000 12750 2    50   Input ~ 0
-row5
+col0
+Text GLabel 12700 11350 0    50   Input ~ 0
+col1
+Text GLabel 12700 11450 0    50   Input ~ 0
+col2
+Text GLabel 12700 11550 0    50   Input ~ 0
+col3
+Text GLabel 12700 12350 0    50   Input ~ 0
+col4
+Text GLabel 12700 12450 0    50   Input ~ 0
+col5
+Text GLabel 12700 12550 0    50   Input ~ 0
+col6
+Text GLabel 12700 12650 0    50   Input ~ 0
+col7
+Text GLabel 12700 12750 0    50   Input ~ 0
+col8
 Text GLabel 14000 12050 2    50   Input ~ 0
-row6
+col9
+Text GLabel 14000 12150 2    50   Input ~ 0
+col10
 Text GLabel 14000 12250 2    50   Input ~ 0
+col11
+Text GLabel 14000 12550 2    50   Input ~ 0
+col12
+Text GLabel 14000 11850 2    50   Input ~ 0
+col13
+Text GLabel 14000 12650 2    50   Input ~ 0
+col14
+Text GLabel 14000 12750 2    50   Input ~ 0
+col15
+Text GLabel 12700 11650 0    50   Input ~ 0
+col16
+Text GLabel 12700 11750 0    50   Input ~ 0
+col17
+Text GLabel 12700 11850 0    50   Input ~ 0
+col18
+Text GLabel 12700 11950 0    50   Input ~ 0
+col19
+Text GLabel 12700 12050 0    50   Input ~ 0
+col20
+Text GLabel 12700 12150 0    50   Input ~ 0
+col21
+Text GLabel 12700 12250 0    50   Input ~ 0
+col22
+Text GLabel 14000 11250 2    50   Input ~ 0
+row1
+Text GLabel 14000 11350 2    50   Input ~ 0
+row3
+Text GLabel 14000 11450 2    50   Input ~ 0
+row4
+Text GLabel 14000 11550 2    50   Input ~ 0
+row5
+Text GLabel 14000 11650 2    50   Input ~ 0
+row6
+Text GLabel 14000 11750 2    50   Input ~ 0
 row7
 Wire Wire Line
 	13500 12950 13600 12950
@@ -4317,4 +4317,6 @@ Wire Wire Line
 Connection ~ 13400 12950
 Wire Wire Line
 	13400 12950 13500 12950
+NoConn ~ 13200 9850
+NoConn ~ 12700 10450
 $EndSCHEMATC
