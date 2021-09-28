@@ -3341,63 +3341,61 @@ F 3 "~" H 8600 9000 50  0001 C CNN
 	1    8600 9000
 	1    0    0    -1  
 $EndComp
-Text GLabel 11400 6100 2    50   Input ~ 0
+Text GLabel 9650 6500 2    50   Input ~ 0
 col0
-Text GLabel 12100 5450 0    50   Input ~ 0
+Text GLabel 9650 6400 2    50   Input ~ 0
 col1
-Text GLabel 12100 5550 0    50   Input ~ 0
+Text GLabel 9650 6300 2    50   Input ~ 0
 col2
-Text GLabel 12100 5650 0    50   Input ~ 0
+Text GLabel 9650 6200 2    50   Input ~ 0
 col3
-Text GLabel 12100 6450 0    50   Input ~ 0
+Text GLabel 9650 6100 2    50   Input ~ 0
 col4
-Text GLabel 12100 6550 0    50   Input ~ 0
+Text GLabel 9650 6000 2    50   Input ~ 0
 col5
-Text GLabel 12100 6650 0    50   Input ~ 0
+Text GLabel 9650 5900 2    50   Input ~ 0
 col6
-Text GLabel 12100 6750 0    50   Input ~ 0
+Text GLabel 9650 5800 2    50   Input ~ 0
 col7
-Text GLabel 12100 6850 0    50   Input ~ 0
+Text GLabel 9650 5700 2    50   Input ~ 0
 col8
-Text GLabel 11400 6200 2    50   Input ~ 0
+Text GLabel 9650 5600 2    50   Input ~ 0
 col9
-Text GLabel 11400 6300 2    50   Input ~ 0
+Text GLabel 9650 5500 2    50   Input ~ 0
 col10
-Text GLabel 11400 6400 2    50   Input ~ 0
+Text GLabel 9650 5400 2    50   Input ~ 0
 col11
-Text GLabel 11400 6700 2    50   Input ~ 0
+Text GLabel 9650 5300 2    50   Input ~ 0
 col12
-Text GLabel 11400 6000 2    50   Input ~ 0
+Text GLabel 9650 6600 2    50   Input ~ 0
 col13
-Text GLabel 11400 6800 2    50   Input ~ 0
+Text GLabel 9650 5200 2    50   Input ~ 0
 col14
-Text GLabel 11400 6900 2    50   Input ~ 0
+Text GLabel 9650 5100 2    50   Input ~ 0
 col15
-Text GLabel 12100 5750 0    50   Input ~ 0
+Text GLabel 9650 5000 2    50   Input ~ 0
 col16
-Text GLabel 12100 5850 0    50   Input ~ 0
+Text GLabel 9650 4900 2    50   Input ~ 0
 col17
-Text GLabel 12100 5950 0    50   Input ~ 0
-col18
-Text GLabel 12100 6050 0    50   Input ~ 0
+Text GLabel 9650 4800 2    50   Input ~ 0
 col19
-Text GLabel 12100 6150 0    50   Input ~ 0
+Text GLabel 9650 4700 2    50   Input ~ 0
 col20
-Text GLabel 12100 6250 0    50   Input ~ 0
+Text GLabel 9650 4600 2    50   Input ~ 0
 col21
-Text GLabel 12100 6350 0    50   Input ~ 0
+Text GLabel 9650 4500 2    50   Input ~ 0
 col22
-Text GLabel 11400 5400 2    50   Input ~ 0
+Text GLabel 9650 7400 2    50   Input ~ 0
 row1
-Text GLabel 11400 5500 2    50   Input ~ 0
+Text GLabel 9650 7300 2    50   Input ~ 0
 row3
-Text GLabel 11400 5600 2    50   Input ~ 0
+Text GLabel 9650 7200 2    50   Input ~ 0
 row4
-Text GLabel 11400 5700 2    50   Input ~ 0
+Text GLabel 9650 7100 2    50   Input ~ 0
 row5
-Text GLabel 11400 5800 2    50   Input ~ 0
+Text GLabel 9650 6800 2    50   Input ~ 0
 row6
-Text GLabel 11400 5900 2    50   Input ~ 0
+Text GLabel 9650 6700 2    50   Input ~ 0
 row7
 Connection ~ 15950 19100
 Wire Wire Line
@@ -5225,9 +5223,6 @@ Wire Wire Line
 	10300 8800 9900 8800
 Wire Wire Line
 	10600 8800 10700 8800
-NoConn ~ 9650 7400
-NoConn ~ 9650 6700
-NoConn ~ 9650 6800
 $Comp
 L Device:C C5
 U 1 1 5EDB1AA1
