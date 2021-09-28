@@ -3925,63 +3925,61 @@ F 3 "" H 12250 9600 50  0001 C CNN
 	1    12250 9600
 	1    0    0    -1  
 $EndComp
-Text GLabel 14000 11950 2    50   Input ~ 0
-col0
-Text GLabel 12700 11350 0    50   Input ~ 0
-col1
-Text GLabel 12700 11450 0    50   Input ~ 0
-col2
-Text GLabel 12700 11550 0    50   Input ~ 0
-col3
-Text GLabel 12700 12350 0    50   Input ~ 0
-col4
-Text GLabel 12700 12450 0    50   Input ~ 0
-col5
-Text GLabel 12700 12550 0    50   Input ~ 0
-col6
-Text GLabel 12700 12650 0    50   Input ~ 0
-col7
-Text GLabel 12700 12750 0    50   Input ~ 0
-col8
-Text GLabel 14000 12050 2    50   Input ~ 0
-col9
-Text GLabel 14000 12150 2    50   Input ~ 0
-col10
 Text GLabel 14000 12250 2    50   Input ~ 0
+col0
+Text GLabel 14000 12150 2    50   Input ~ 0
+col1
+Text GLabel 14000 12050 2    50   Input ~ 0
+col2
+Text GLabel 12700 12750 0    50   Input ~ 0
+col3
+Text GLabel 12700 12650 0    50   Input ~ 0
+col4
+Text GLabel 12700 12550 0    50   Input ~ 0
+col5
+Text GLabel 12700 12450 0    50   Input ~ 0
+col6
+Text GLabel 12700 12350 0    50   Input ~ 0
+col7
+Text GLabel 12700 11550 0    50   Input ~ 0
+col8
+Text GLabel 12700 11450 0    50   Input ~ 0
+col9
+Text GLabel 12700 11350 0    50   Input ~ 0
+col10
+Text GLabel 14000 11950 2    50   Input ~ 0
 col11
-Text GLabel 14000 12550 2    50   Input ~ 0
-col12
 Text GLabel 14000 11850 2    50   Input ~ 0
+col12
+Text GLabel 14450 12650 2    50   Input ~ 0
 col13
-Text GLabel 14000 12650 2    50   Input ~ 0
-col14
-Text GLabel 14000 12750 2    50   Input ~ 0
-col15
-Text GLabel 12700 11650 0    50   Input ~ 0
-col16
-Text GLabel 12700 11750 0    50   Input ~ 0
-col17
-Text GLabel 12700 11850 0    50   Input ~ 0
-col18
-Text GLabel 12700 11950 0    50   Input ~ 0
-col19
-Text GLabel 12700 12050 0    50   Input ~ 0
-col20
-Text GLabel 12700 12150 0    50   Input ~ 0
-col21
-Text GLabel 12700 12250 0    50   Input ~ 0
-col22
-Text GLabel 14000 11250 2    50   Input ~ 0
-row1
-Text GLabel 14000 11350 2    50   Input ~ 0
-row3
-Text GLabel 14000 11450 2    50   Input ~ 0
-row4
-Text GLabel 14000 11550 2    50   Input ~ 0
-row5
-Text GLabel 14000 11650 2    50   Input ~ 0
-row6
 Text GLabel 14000 11750 2    50   Input ~ 0
+col14
+Text GLabel 14000 11650 2    50   Input ~ 0
+col15
+Text GLabel 14000 11550 2    50   Input ~ 0
+col16
+Text GLabel 14000 11450 2    50   Input ~ 0
+col17
+Text GLabel 14000 11350 2    50   Input ~ 0
+col19
+Text GLabel 14000 11250 2    50   Input ~ 0
+col20
+Text GLabel 12700 11150 0    50   Input ~ 0
+col21
+Text GLabel 12700 11050 0    50   Input ~ 0
+col22
+Text GLabel 12700 11950 0    50   Input ~ 0
+row1
+Text GLabel 12700 11850 0    50   Input ~ 0
+row3
+Text GLabel 12700 11750 0    50   Input ~ 0
+row4
+Text GLabel 12700 11650 0    50   Input ~ 0
+row5
+Text GLabel 14000 12750 2    50   Input ~ 0
+row6
+Text GLabel 14450 12550 2    50   Input ~ 0
 row7
 Wire Wire Line
 	13500 12950 13600 12950
@@ -4295,17 +4293,6 @@ Wire Wire Line
 	12100 10500 11800 10500
 Connection ~ 12100 10500
 $Comp
-L Device:C_Small C10
-U 1 1 616BE7BD
-P 11700 10900
-F 0 "C10" V 11450 10900 50  0000 C CNN
-F 1 "0402 22pF" V 11550 10900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 11700 10900 50  0001 C CNN
-F 3 "~" H 11700 10900 50  0001 C CNN
-	1    11700 10900
-	0    1    -1   0   
-$EndComp
-$Comp
 L Device:C_Small C9
 U 1 1 616BF174
 P 11700 10500
@@ -4366,8 +4353,6 @@ Wire Wire Line
 	11600 10700 11600 10500
 Connection ~ 11600 10700
 NoConn ~ 12700 10950
-NoConn ~ 12700 11050
-NoConn ~ 12700 11150
 NoConn ~ 9550 11150
 NoConn ~ 9550 10550
 Wire Wire Line
@@ -4375,4 +4360,49 @@ Wire Wire Line
 Connection ~ 9550 11550
 Wire Wire Line
 	9550 11550 9550 11650
+$Comp
+L Device:C_Small C10
+U 1 1 616BE7BD
+P 11700 10900
+F 0 "C10" V 11450 10900 50  0000 C CNN
+F 1 "0402 22pF" V 11550 10900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 11700 10900 50  0001 C CNN
+F 3 "~" H 11700 10900 50  0001 C CNN
+	1    11700 10900
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	14000 12550 14450 12550
+Wire Wire Line
+	14000 12650 14450 12650
+$Comp
+L power:GND #PWR0121
+U 1 1 61D38795
+P 15900 12700
+F 0 "#PWR0121" H 15900 12450 50  0001 C CNN
+F 1 "GND" V 15900 12500 50  0000 C CNN
+F 2 "" H 15900 12700 50  0001 C CNN
+F 3 "" H 15900 12700 50  0001 C CNN
+	1    15900 12700
+	0    1    1    0   
+$EndComp
+Text GLabel 15900 12800 0    50   Input ~ 0
+col13
+Text GLabel 15900 12600 0    50   Input ~ 0
+row7
+Text Notes 16200 12600 0    50   ~ 0
+SWDIO
+Text Notes 16200 12800 0    50   ~ 0
+SWCLK
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 61D3730E
+P 16100 12700
+F 0 "J1" H 16180 12742 50  0000 L CNN
+F 1 "Conn_01x03" H 16400 12700 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal" H 16100 12700 50  0001 C CNN
+F 3 "~" H 16100 12700 50  0001 C CNN
+	1    16100 12700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
