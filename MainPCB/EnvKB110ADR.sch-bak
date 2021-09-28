@@ -3378,14 +3378,12 @@ col16
 Text GLabel 9650 4900 2    50   Input ~ 0
 col17
 Text GLabel 9650 4800 2    50   Input ~ 0
-col18
-Text GLabel 9650 4700 2    50   Input ~ 0
 col19
-Text GLabel 9650 4600 2    50   Input ~ 0
+Text GLabel 9650 4700 2    50   Input ~ 0
 col20
-Text GLabel 9650 4500 2    50   Input ~ 0
+Text GLabel 9650 4600 2    50   Input ~ 0
 col21
-Text GLabel 9650 4400 2    50   Input ~ 0
+Text GLabel 9650 4500 2    50   Input ~ 0
 col22
 Text GLabel 9650 7400 2    50   Input ~ 0
 row1
