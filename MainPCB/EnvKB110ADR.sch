@@ -4220,8 +4220,6 @@ Connection ~ 1900 2150
 Wire Wire Line
 	1900 900  1900 2150
 Wire Wire Line
-	13150 12950 13200 12950
-Wire Wire Line
 	3900 2150 3900 4150
 Wire Wire Line
 	5900 2150 5900 4150
@@ -4266,7 +4264,6 @@ Wire Wire Line
 Wire Wire Line
 	1900 2150 1900 4150
 Connection ~ 13500 12950
-Connection ~ 13200 12950
 Wire Wire Line
 	13200 12950 13300 12950
 Connection ~ 13300 12950
@@ -4368,9 +4365,14 @@ Wire Wire Line
 Wire Wire Line
 	11600 10700 11600 10500
 Connection ~ 11600 10700
-Wire Wire Line
-	9550 11450 9550 11650
 NoConn ~ 12700 10950
 NoConn ~ 12700 11050
 NoConn ~ 12700 11150
+NoConn ~ 9550 11150
+NoConn ~ 9550 10550
+Wire Wire Line
+	9550 11450 9550 11550
+Connection ~ 9550 11550
+Wire Wire Line
+	9550 11550 9550 11650
 $EndSCHEMATC

@@ -429,7 +429,7 @@
     (tags "SMD SMT crystal")
     (path /6157D500)
     (attr smd)
-    (fp_text reference Y1 (at 0 -2.45) (layer B.SilkS)
+    (fp_text reference Y1 (at 0 -2.45) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value "3225_4P 32.768khz" (at 0 2.45) (layer F.Fab)
@@ -470,7 +470,7 @@
     (tags capacitor)
     (path /616BE7BD)
     (attr smd)
-    (fp_text reference C10 (at 0 -1.16) (layer F.SilkS)
+    (fp_text reference C10 (at 0 -1.16) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "0402 22pF" (at 0 1.16) (layer F.Fab)
@@ -506,7 +506,7 @@
     (tags capacitor)
     (path /616BF174)
     (attr smd)
-    (fp_text reference C9 (at 0 -1.16 90) (layer F.SilkS)
+    (fp_text reference C9 (at 0 -1.16 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "0402 22pF" (at 0 1.16 90) (layer F.Fab)
@@ -538,10 +538,10 @@
 
   (module logo:logo (layer F.Cu) (tedit 0) (tstamp 614F421A)
     (at 445.36652 63.2086)
-    (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
+    (fp_text reference G*** (at 0 0) (layer F.Fab) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
-    (fp_text value LOGO (at 0.75 0) (layer F.SilkS) hide
+    (fp_text value LOGO (at 0.75 0) (layer F.Fab) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_poly (pts (xy -2.336535 18.544577) (xy -2.145849 18.723424) (xy -2.184966 18.826243) (xy -2.209797 18.827972)
