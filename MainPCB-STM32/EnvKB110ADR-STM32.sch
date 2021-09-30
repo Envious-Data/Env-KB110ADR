@@ -3248,7 +3248,7 @@ U 1 1 60CCB1E5
 P 15550 10250
 F 0 "H1" H 15650 10296 50  0000 L CNN
 F 1 "MountingHole" H 15650 10205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 15550 10250 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 15550 10250 50  0001 C CNN
 F 3 "~" H 15550 10250 50  0001 C CNN
 	1    15550 10250
 	1    0    0    -1  
@@ -3259,7 +3259,7 @@ U 1 1 60CCBAD4
 P 15750 10250
 F 0 "H2" H 15850 10296 50  0000 L CNN
 F 1 "MountingHole" H 15850 10205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 15750 10250 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 15750 10250 50  0001 C CNN
 F 3 "~" H 15750 10250 50  0001 C CNN
 	1    15750 10250
 	1    0    0    -1  
@@ -3270,7 +3270,7 @@ U 1 1 60CCBDAA
 P 15950 10250
 F 0 "H3" H 16050 10296 50  0000 L CNN
 F 1 "MountingHole" H 16050 10205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 15950 10250 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 15950 10250 50  0001 C CNN
 F 3 "~" H 15950 10250 50  0001 C CNN
 	1    15950 10250
 	1    0    0    -1  
@@ -3281,7 +3281,7 @@ U 1 1 60CCC245
 P 16150 10250
 F 0 "H4" H 16250 10296 50  0000 L CNN
 F 1 "MountingHole" H 16250 10205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 16150 10250 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 16150 10250 50  0001 C CNN
 F 3 "~" H 16150 10250 50  0001 C CNN
 	1    16150 10250
 	1    0    0    -1  
@@ -3292,7 +3292,7 @@ U 1 1 60CCC43C
 P 16350 10250
 F 0 "H5" H 16450 10296 50  0000 L CNN
 F 1 "MountingHole" H 16450 10205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 16350 10250 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 16350 10250 50  0001 C CNN
 F 3 "~" H 16350 10250 50  0001 C CNN
 	1    16350 10250
 	1    0    0    -1  
@@ -3303,7 +3303,7 @@ U 1 1 60CCC6C0
 P 16550 10250
 F 0 "H6" H 16650 10296 50  0000 L CNN
 F 1 "MountingHole" H 16650 10205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 16550 10250 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 16550 10250 50  0001 C CNN
 F 3 "~" H 16550 10250 50  0001 C CNN
 	1    16550 10250
 	1    0    0    -1  
@@ -3314,7 +3314,7 @@ U 1 1 60CCCCC7
 P 16750 10250
 F 0 "H8" H 16850 10296 50  0000 L CNN
 F 1 "MountingHole" H 16850 10205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 16750 10250 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 16750 10250 50  0001 C CNN
 F 3 "~" H 16750 10250 50  0001 C CNN
 	1    16750 10250
 	1    0    0    -1  
@@ -3325,7 +3325,7 @@ U 1 1 60CD2F14
 P 16950 10250
 F 0 "H9" H 17050 10300 50  0000 L CNN
 F 1 "MountingHole" H 17050 10205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 16950 10250 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 16950 10250 50  0001 C CNN
 F 3 "~" H 16950 10250 50  0001 C CNN
 	1    16950 10250
 	1    0    0    -1  
@@ -3336,7 +3336,7 @@ U 1 1 60CD317C
 P 17150 10250
 F 0 "H10" H 17250 10296 50  0000 L CNN
 F 1 "MountingHole" H 17250 10205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 17150 10250 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 17150 10250 50  0001 C CNN
 F 3 "~" H 17150 10250 50  0001 C CNN
 	1    17150 10250
 	1    0    0    -1  
@@ -4405,4 +4405,60 @@ F 3 "~" H 16100 12700 50  0001 C CNN
 	1    16100 12700
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole_Pad H13
+U 1 1 6159BEF9
+P 15350 10250
+F 0 "H13" H 15450 10296 50  0000 L CNN
+F 1 "MountingHole" H 15450 10205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 15350 10250 50  0001 C CNN
+F 3 "~" H 15350 10250 50  0001 C CNN
+	1    15350 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H12
+U 1 1 6159C0F0
+P 15150 10250
+F 0 "H12" H 15250 10296 50  0000 L CNN
+F 1 "MountingHole" H 15250 10205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 15150 10250 50  0001 C CNN
+F 3 "~" H 15150 10250 50  0001 C CNN
+	1    15150 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H11
+U 1 1 6159C37F
+P 14950 10250
+F 0 "H11" H 15050 10296 50  0000 L CNN
+F 1 "MountingHole" H 15050 10205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 14950 10250 50  0001 C CNN
+F 3 "~" H 14950 10250 50  0001 C CNN
+	1    14950 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H7
+U 1 1 6159C5EF
+P 14750 10250
+F 0 "H7" H 14850 10296 50  0000 L CNN
+F 1 "MountingHole" H 14850 10205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 14750 10250 50  0001 C CNN
+F 3 "~" H 14750 10250 50  0001 C CNN
+	1    14750 10250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14750 10350 14950 10350
+Connection ~ 15550 10350
+Connection ~ 14950 10350
+Wire Wire Line
+	14950 10350 15150 10350
+Connection ~ 15150 10350
+Wire Wire Line
+	15150 10350 15350 10350
+Connection ~ 15350 10350
+Wire Wire Line
+	15350 10350 15550 10350
 $EndSCHEMATC
