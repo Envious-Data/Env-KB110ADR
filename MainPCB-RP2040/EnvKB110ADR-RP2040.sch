@@ -4110,7 +4110,7 @@ L Device:R R2
 U 1 1 5EDAC067
 P 2500 4350
 F 0 "R2" H 2570 4396 50  0000 L CNN
-F 1 "DNF" H 2570 4305 50  0000 L CNN
+F 1 "10K 0402" H 2570 4305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" V 2430 4350 50  0001 C CNN
 F 3 "" H 2500 4350 50  0001 C CNN
 F 4 "  " H 2500 4350 50  0001 C CNN "LCSC"
@@ -5142,10 +5142,6 @@ Wire Wire Line
 	4700 1850 4650 1850
 Text Notes 4450 2700 0    50   Italic 0
 Only fit cBP1 if you have selected an \nalternate voltage regulator\n\nTLV75533PDBVR does not.
-Text Notes 2500 4550 0    50   Italic 10
-DO.NOT.FIT
-Text Notes 2200 6250 0    50   ~ 0
-GD25Q40CEIGR is compatible and often stocked by JLC
 $Comp
 L Device:R R11
 U 1 1 6150E6AB
