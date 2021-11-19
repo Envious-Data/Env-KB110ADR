@@ -5300,10 +5300,10 @@ F 3 "~" H 6000 9000 50  0001 C CNN
 $EndComp
 Connection ~ 6200 9100
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H18
 U 1 1 61A6E8C5
 P 5800 9000
-F 0 "H?" H 5750 9150 50  0000 L CNN
+F 0 "H18" H 5750 9150 50  0000 L CNN
 F 1 "MountingHole" H 5900 8955 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 5800 9000 50  0001 C CNN
 F 3 "~" H 5800 9000 50  0001 C CNN
@@ -5311,10 +5311,10 @@ F 3 "~" H 5800 9000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H17
 U 1 1 61A6EE1C
 P 5600 9000
-F 0 "H?" H 5550 9150 50  0000 L CNN
+F 0 "H17" H 5550 9150 50  0000 L CNN
 F 1 "MountingHole" H 5700 8955 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 5600 9000 50  0001 C CNN
 F 3 "~" H 5600 9000 50  0001 C CNN
@@ -5322,10 +5322,10 @@ F 3 "~" H 5600 9000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H16
 U 1 1 61A6F3C0
 P 5400 9000
-F 0 "H?" H 5350 9150 50  0000 L CNN
+F 0 "H16" H 5350 9150 50  0000 L CNN
 F 1 "MountingHole" H 5500 8955 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 5400 9000 50  0001 C CNN
 F 3 "~" H 5400 9000 50  0001 C CNN
@@ -5333,10 +5333,10 @@ F 3 "~" H 5400 9000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H15
 U 1 1 61A73E9B
 P 5200 9000
-F 0 "H?" H 5150 9150 50  0000 L CNN
+F 0 "H15" H 5150 9150 50  0000 L CNN
 F 1 "MountingHole" H 5300 8955 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 5200 9000 50  0001 C CNN
 F 3 "~" H 5200 9000 50  0001 C CNN
