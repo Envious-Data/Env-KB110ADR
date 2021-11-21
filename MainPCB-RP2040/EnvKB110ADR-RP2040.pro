@@ -1,5 +1,15 @@
-update=28/09/2021 17:21:50
+update=21/11/2021 07:43:14
 last_client=kicad
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -36,12 +46,12 @@ dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
 SilkLineWidth=0.15
-SilkTextSizeV=1
-SilkTextSizeH=1
-SilkTextSizeThickness=0.15
+SilkTextSizeV=0.7999999999999999
+SilkTextSizeH=0.7999999999999999
+SilkTextSizeThickness=0.153
 SilkTextItalic=0
 SilkTextUpright=1
-CopperLineWidth=0.2
+CopperLineWidth=0.127
 CopperTextSizeV=1.5
 CopperTextSizeH=1.5
 CopperTextThickness=0.3
@@ -49,7 +59,7 @@ CopperTextItalic=0
 CopperTextUpright=1
 EdgeCutLineWidth=0.09999999999999999
 CourtyardLineWidth=0.05
-OthersLineWidth=0.12
+OthersLineWidth=0.09999999999999999
 OthersTextSizeV=1
 OthersTextSizeH=1
 OthersTextSizeThickness=0.15
@@ -228,7 +238,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.2
+Clearance=0.127
 TrackWidth=0.127
 ViaDiameter=0.8
 ViaDrill=0.4
@@ -237,13 +247,3 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
