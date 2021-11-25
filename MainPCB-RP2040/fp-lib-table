@@ -17,4 +17,5 @@
   (lib (name Type-C)(type KiCad)(uri ${KIPRJMOD}/Resources/footprints/Type-C.pretty)(options "")(descr ""))
   (lib (name W25Q16JVSSIQ)(type KiCad)(uri ${KIPRJMOD}/Resources/footprints/W25Q16JVSSIQ.pretty)(options "")(descr ""))
   (lib (name W25Q256JVEIQ_TR)(type KiCad)(uri ${KIPRJMOD}/Resources/footprints/W25Q256JVEIQ_TR.pretty)(options "")(descr ""))
+  (lib (name Mounting_Keyboard_Stabilizer)(type KiCad)(uri ${KIPRJMOD}/Resources/footprints/Mounting_Keyboard_Stabilizer.pretty)(options "")(descr ""))
 )
