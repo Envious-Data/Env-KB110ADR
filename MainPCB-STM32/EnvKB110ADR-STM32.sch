@@ -3342,17 +3342,6 @@ F 3 "~" H 15000 9650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MCU_ST_STM32F4:STM32F411CEUx U2
-U 1 1 61118AF8
-P 13400 11350
-F 0 "U2" H 13700 12350 50  0000 C CNN
-F 1 "STM32F411CEUx" H 13450 12450 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 12800 9850 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00115249.pdf" H 13400 11350 50  0001 C CNN
-	1    13400 11350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Regulator_Linear:XC6206PxxxMR U1
 U 1 1 6111B22A
 P 11900 9400
@@ -3982,11 +3971,7 @@ row6
 Text GLabel 14450 12550 2    50   Input ~ 0
 row7
 Wire Wire Line
-	13500 12950 13600 12950
-Wire Wire Line
 	13500 9700 13500 9850
-Connection ~ 13300 9850
-Connection ~ 13600 12950
 Connection ~ 15450 6600
 Wire Wire Line
 	15450 6600 20450 6600
@@ -4261,16 +4246,6 @@ Wire Wire Line
 	2900 4150 2900 7150
 Wire Wire Line
 	1900 2150 1900 4150
-Connection ~ 13500 12950
-Wire Wire Line
-	13200 12950 13300 12950
-Connection ~ 13300 12950
-Wire Wire Line
-	13300 12950 13400 12950
-Connection ~ 13400 12950
-Wire Wire Line
-	13400 12950 13500 12950
-NoConn ~ 13200 9850
 $Comp
 L Device:Crystal_GND24 Y1
 U 1 1 6157D500
@@ -4486,4 +4461,59 @@ Wire Wire Line
 	12600 10400 12700 10400
 Wire Wire Line
 	12700 10400 12700 10450
+Connection ~ 13600 12950
+Wire Wire Line
+	13500 12950 13600 12950
+Connection ~ 13500 12950
+Wire Wire Line
+	13400 12950 13500 12950
+Connection ~ 13400 12950
+Wire Wire Line
+	13300 12950 13400 12950
+Wire Wire Line
+	13200 12950 13300 12950
+Connection ~ 13300 12950
+Connection ~ 13300 9850
+$Comp
+L MCU_ST_STM32F4:STM32F411CEUx U2
+U 1 1 61118AF8
+P 13400 11350
+F 0 "U2" H 13700 12350 50  0000 C CNN
+F 1 "STM32F411CEUx" H 13450 12450 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 12800 9850 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00115249.pdf" H 13400 11350 50  0001 C CNN
+	1    13400 11350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13200 9850 13300 9850
+$Comp
+L power:GND #PWR0123
+U 1 1 61AEBF37
+P 13050 9500
+F 0 "#PWR0123" H 13050 9250 50  0001 C CNN
+F 1 "GND" H 13055 9327 50  0000 C CNN
+F 2 "" H 13050 9500 50  0001 C CNN
+F 3 "" H 13050 9500 50  0001 C CNN
+	1    13050 9500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C12
+U 1 1 61AED4AD
+P 13050 9600
+F 0 "C12" H 13142 9646 50  0001 L CNN
+F 1 "100nf capacitor" H 13000 9600 10  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 13050 9600 50  0001 C CNN
+F 3 "~" H 13050 9600 50  0001 C CNN
+	1    13050 9600
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	13050 9700 13050 9800
+Connection ~ 13200 9850
+Wire Wire Line
+	13200 9850 13200 9800
+Wire Wire Line
+	13200 9800 13050 9800
 $EndSCHEMATC
