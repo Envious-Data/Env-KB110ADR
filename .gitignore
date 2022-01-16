@@ -29,3 +29,4 @@ _autosave-*
 MainPCB-RP2040/EnvKB110ADR-RP2040-backups/*
 !EnvKB110ADR-RP2040_cpl_jlc.csv
 !EnvKB110ADR-RP2040_bom_jlc.csv
+!MainPCB-RP2040/_gbr/*
