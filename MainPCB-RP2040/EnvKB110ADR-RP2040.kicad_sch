@@ -11403,8 +11403,8 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000608edada)
     (property "Reference" "FLASH1" (id 0) (at 78.74 133.35 0))
-    (property "Value" "W25Q16" (id 1) (at 78.74 146.05 0))
-    (property "Footprint" "Package_SO:SOIC-8_5.275x5.275mm_P1.27mm" (id 2) (at 78.74 133.35 0)
+    (property "Value" "W25Q16JVSSIQ" (id 1) (at 78.74 146.05 0))
+    (property "Footprint" "Package_SO:SOIC-8W_5.3x5.3mm_P1.27mm" (id 2) (at 78.74 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 78.74 133.35 0)
@@ -13305,7 +13305,7 @@
       (reference "D_ANSI_1") (unit 1) (value "SOD-123") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/00000000-0000-0000-0000-0000608edada"
-      (reference "FLASH1") (unit 1) (value "W25Q16") (footprint "Package_SO:SOIC-8_5.275x5.275mm_P1.27mm")
+      (reference "FLASH1") (unit 1) (value "W25Q16JVSSIQ") (footprint "Package_SO:SOIC-8W_5.3x5.3mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000060ccb1e5"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad")
