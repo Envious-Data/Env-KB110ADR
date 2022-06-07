@@ -26,7 +26,8 @@ _autosave-*
 *.xml
 *.csv
 !EnvKB110ADR_*_jlc.csv
-MainPCB-RP2040/EnvKB110ADR-RP2040-backups/*
+MainPCB-RP2040/EnvKB110ADR-RP2040-backups/
 !EnvKB110ADR-RP2040_cpl_jlc.csv
 !EnvKB110ADR-RP2040_bom_jlc.csv
-!MainPCB-RP2040/_gbr/*
+!MainPCB-RP2040/_gbr/
+MainPCB-RPI+IOX/EnvKB105-RPI-backups/
