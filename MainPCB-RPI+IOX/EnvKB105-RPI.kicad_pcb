@@ -234,7 +234,7 @@
   (net 146 "unconnected-(U1-Pad22)")
   (net 147 "unconnected-(USB1-PadA8)")
   (net 148 "unconnected-(USB1-PadB8)")
-  (net 149 "Net-(D_ANSI_1-Pad2)")
+  (net 149 "Net-(D_117-Pad2)")
   (net 150 "unconnected-(H1-Pad1)")
   (net 151 "unconnected-(H2-Pad1)")
   (net 152 "unconnected-(H3-Pad1)")
@@ -273,6 +273,7 @@
   (net 185 "unconnected-(U3-Pad16)")
   (net 186 "unconnected-(U3-Pad2)")
   (net 187 "unconnected-(U3-Pad3)")
+  (net 188 "unconnected-(U2-Pad16)")
 
   (footprint "MountingHole:MountingHole_2.2mm_M2_Pad" (layer "F.Cu")
     (tedit 56D1B4CB) (tstamp 00000000-0000-0000-0000-000060c924c4)
@@ -6001,9 +6002,9 @@
     (pad "1" smd rect (at -5.61 -2.54 270) (size 5.5 2.5) (layers "B.Cu")
       (net 15 "col14") (pinfunction "COL") (pintype "passive") (tstamp 81eda675-3429-4f2a-91bf-06dac2ffb0f0))
     (pad "2" thru_hole circle (at 2.54 -5.08 270) (size 3.25 3.25) (drill 3) (layers *.Cu *.Mask)
-      (net 149 "Net-(D_ANSI_1-Pad2)") (pinfunction "ROW") (pintype "passive") (tstamp 46617ce2-1265-4f59-a0fc-6e8dc47f28ac))
+      (net 149 "Net-(D_117-Pad2)") (pinfunction "ROW") (pintype "passive") (tstamp 46617ce2-1265-4f59-a0fc-6e8dc47f28ac))
     (pad "2" smd rect (at 4.34 -5.08 270) (size 5.5 2.5) (layers "B.Cu")
-      (net 149 "Net-(D_ANSI_1-Pad2)") (pinfunction "ROW") (pintype "passive") (tstamp c5dcd4cf-ca83-4135-8b6d-06b569ba4b8b))
+      (net 149 "Net-(D_117-Pad2)") (pinfunction "ROW") (pintype "passive") (tstamp c5dcd4cf-ca83-4135-8b6d-06b569ba4b8b))
   )
 
   (footprint "EnvExtras:MXOnly-1U-Hotswap-Modified" (layer "F.Cu")
@@ -62231,7 +62232,7 @@
     (pad "1" smd rect (at -1.65 0 270) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 25 "row4") (pinfunction "K") (pintype "passive") (tstamp aea0c070-06c6-4135-a708-f46d34e6fdae))
     (pad "2" smd rect (at 1.65 0 270) (size 0.9 1.2) (layers "B.Cu" "B.Paste" "B.Mask")
-      (net 149 "Net-(D_ANSI_1-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 483f331b-2bc0-4cb8-bb92-1b8a345841cf))
+      (net 149 "Net-(D_117-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 483f331b-2bc0-4cb8-bb92-1b8a345841cf))
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -68434,7 +68435,6 @@
   (segment (start 418.6 165.7) (end 418.6 164.453) (width 0.15) (layer "B.Cu") (net 132) (tstamp 89dba8ed-6d52-4248-8ebf-04e6c6c88d41))
   (segment (start 443.63 168.76) (end 444.4 167.99) (width 0.15) (layer "B.Cu") (net 133) (tstamp 066b4352-6176-4aef-9d65-62b073c823db))
   (segment (start 444.4 167.99) (end 444.4 161.678) (width 0.15) (layer "B.Cu") (net 133) (tstamp 2ecea419-ba4a-4c27-a2eb-c2ef62db92ca))
-  (via (at 393.25 71) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 135) (tstamp c42334e5-a0f7-4f62-8049-0227e961e0cf))
   (segment (start 404.0875 76.6) (end 403.2 76.6) (width 0.25) (layer "B.Cu") (net 135) (tstamp 5673e2cc-8c10-48df-b0a7-415ebb5d59f2))
   (segment (start 402.55 73.35) (end 401.25 74.65) (width 0.25) (layer "B.Cu") (net 135) (tstamp 6a84e3e9-a633-4bd8-a35f-2005a492b959))
   (segment (start 402.55 71.8125) (end 402.55 73.35) (width 0.25) (layer "B.Cu") (net 135) (tstamp 77d4378b-2c81-4117-abcc-33248ab2ae1b))
@@ -68653,6 +68653,7 @@
   (segment (start 303.5 113) (end 303.5 116.5) (width 0.15) (layer "B.Cu") (net 149) (tstamp a8865613-218f-4cd0-835d-0da84249ecdc))
   (segment (start 300.7 109.55) (end 300.7 110.2) (width 0.15) (layer "B.Cu") (net 149) (tstamp b2aaa4e2-94ab-458b-832e-a2d2cf9c7de9))
   (segment (start 312.38 114.8) (end 314.14 113.04) (width 0.15) (layer "B.Cu") (net 149) (tstamp e6db87e3-1f98-4303-8faf-0fe91f6c05ff))
+  (via (at 393.25 71) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 188) (tstamp c42334e5-a0f7-4f62-8049-0227e961e0cf))
 
   (zone (net 135) (net_name "GND") (layers F&B.Cu) (tstamp 00000000-0000-0000-0000-000061acd371) (hatch edge 0.508)
     (connect_pads yes (clearance 0.127))
