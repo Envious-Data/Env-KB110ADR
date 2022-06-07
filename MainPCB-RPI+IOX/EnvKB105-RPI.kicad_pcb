@@ -1965,7 +1965,7 @@
       (net 65 "Net-(D_48-Pad2)") (pinfunction "ROW") (pintype "passive") (tstamp 945e8b39-9b72-4e87-884c-3d30495c1340))
     (pad "2" smd rect (at 4.34 -5.08) (size 5.5 2.5) (layers "B.Cu")
       (net 65 "Net-(D_48-Pad2)") (pinfunction "ROW") (pintype "passive") (tstamp d95e9338-55f2-4470-8fc0-019bdbf3276d))
-    (model "C:/Users/Envy/Documents/GitHub/_RESOURCES/SW_Hotswap_Kailh.step"
+    (model "${KIPRJMOD}/Resources/footprints/EnvExtras.pretty/SW_Hotswap_Kailh.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4421,7 +4421,7 @@
       (net 64 "Net-(D_47-Pad2)") (pinfunction "ROW") (pintype "passive") (tstamp 1ce9aeba-18fd-463f-8565-2915da95ae0f))
     (pad "2" smd rect (at 4.34 -5.08) (size 5.5 2.5) (layers "B.Cu")
       (net 64 "Net-(D_47-Pad2)") (pinfunction "ROW") (pintype "passive") (tstamp ef2c1e2e-f957-450e-a4bd-cfc19251b62f))
-    (model "C:/Users/Envy/Documents/GitHub/_RESOURCES/SW_Hotswap_Kailh.step"
+    (model "${KIPRJMOD}/Resources/footprints/EnvExtras.pretty/SW_Hotswap_Kailh.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5891,7 +5891,7 @@
       (net 62 "Net-(D_45-Pad2)") (pinfunction "ROW") (pintype "passive") (tstamp 12f7271b-e096-473f-8c8e-acc936e8e8ff))
     (pad "2" smd rect (at 4.34 -5.08) (size 5.5 2.5) (layers "B.Cu")
       (net 62 "Net-(D_45-Pad2)") (pinfunction "ROW") (pintype "passive") (tstamp fbfa2a6c-0be8-486a-b10f-83bc37ac481a))
-    (model "C:/Users/Envy/Documents/GitHub/_RESOURCES/SW_Hotswap_Kailh.step"
+    (model "${KIPRJMOD}/Resources/footprints/EnvExtras.pretty/SW_Hotswap_Kailh.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -8115,7 +8115,7 @@
       (net 63 "Net-(D_46-Pad2)") (pinfunction "ROW") (pintype "passive") (tstamp 5b355010-4110-40e9-8712-fdf4050f61f9))
     (pad "2" smd rect (at 4.34 -5.08) (size 5.5 2.5) (layers "B.Cu")
       (net 63 "Net-(D_46-Pad2)") (pinfunction "ROW") (pintype "passive") (tstamp ab55ab0f-0398-458c-870b-d86c2a34e721))
-    (model "C:/Users/Envy/Documents/GitHub/_RESOURCES/SW_Hotswap_Kailh.step"
+    (model "${KIPRJMOD}/Resources/footprints/EnvExtras.pretty/SW_Hotswap_Kailh.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -61677,13 +61677,8 @@
       (net 144 "USB_D-") (pinfunction "USB_DM") (pintype "bidirectional") (tstamp 539b85e8-4b1f-4108-9962-7fffcd963ba9))
     (pad "TP3" thru_hole roundrect (at -1.016 24.125 90) (size 1.75 1.75) (drill 1) (layers *.Cu *.Mask) (roundrect_rratio 0.25)
       (net 143 "USB_D+") (pinfunction "USB_DP") (pintype "bidirectional") (tstamp e9aeebfd-739f-499d-9815-17a774ddfb5f))
-    (model "${KISYS3DMOD}/MCU_RPI_PICO.3dshapes/Pico-R3.step"
+    (model "C:/Users/Envy/Documents/GitHub/Env-KB110ADR/Resources/footprints/EnvExtras.pretty/Pico-R3.step"
       (offset (xyz -10.5 -25.5 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
-    )
-    (model "C:/Users/Envy/Documents/GitHub/_RESOURCES/RaspberryPi_Pico.step"
-      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
