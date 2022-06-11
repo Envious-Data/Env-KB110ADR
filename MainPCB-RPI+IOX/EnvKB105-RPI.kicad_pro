@@ -56,6 +56,10 @@
         }
       ],
       "drc_exclusions": [
+        "copper_edge_clearance|457350000|66209000|a4ca7492-42cd-4254-9e71-0a40ca5b93d0|218e8509-a285-49f0-bdc2-e26f16ae102c",
+        "copper_edge_clearance|457350000|66621500|a4ca7492-42cd-4254-9e71-0a40ca5b93d0|539b85e8-4b1f-4108-9962-7fffcd963ba9",
+        "copper_edge_clearance|457350000|68191000|a4ca7492-42cd-4254-9e71-0a40ca5b93d0|c833375b-d5c4-4f28-ae14-419acafda502",
+        "copper_edge_clearance|457350000|68653500|a4ca7492-42cd-4254-9e71-0a40ca5b93d0|e9aeebfd-739f-499d-9815-17a774ddfb5f",
         "hole_clearance|70938000|139805000|81f5b45d-e937-455f-a807-0d04bedf1c7f|27231fdc-82dd-470d-a2b7-9ed7ee308d2b",
         "hole_clearance|72527500|140470000|4193d205-5b16-4e08-9afd-469142c74b4e|27231fdc-82dd-470d-a2b7-9ed7ee308d2b",
         "hole_near_hole|73477500|141720000|81f5b45d-e937-455f-a807-0d04bedf1c7f|27231fdc-82dd-470d-a2b7-9ed7ee308d2b"

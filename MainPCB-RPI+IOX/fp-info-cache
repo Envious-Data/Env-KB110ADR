@@ -1,4 +1,4 @@
-20661711749447579
+20666509676715418
 2.54mmheadercastelation
 PinHeader_1x20_P2.54mm_Vertical_castelated
 Through hole straight pin header, 1x20, 2.54mm pitch, single row
@@ -52086,6 +52086,27 @@ MXOnly-1U-Hotswap-Modified
 0
 6
 2
+EnvExtras
+OLED
+Connecteur 6 pins
+CONN DEV
+0
+4
+4
+EnvExtras
+OLED_1side
+Connecteur 6 pins
+CONN DEV
+0
+4
+4
+EnvExtras
+OLED_v2
+Connecteur 6 pins
+CONN DEV
+0
+4
+4
 EnvExtras
 RPi_Pico_SMD_TH_Modified
 Through hole straight pin header, 2x20, 2.54mm pitch, double rows
