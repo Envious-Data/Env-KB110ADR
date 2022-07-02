@@ -9701,7 +9701,7 @@
     (property "Value" "5.1K 0402" (id 1) (at 48.895 33.02 90)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 48.895 33.02 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 48.895 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 48.895 33.02 0)
@@ -9721,7 +9721,7 @@
     (property "Value" "5.1K 0402" (id 1) (at 48.895 30.48 90)
       (effects (font (size 0.508 0.508)))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 48.895 30.48 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 48.895 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 48.895 30.48 0)
@@ -11377,10 +11377,10 @@
       (reference "R1") (unit 1) (value "330r") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00006093a5b0"
-      (reference "R5") (unit 1) (value "5.1K 0402") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R5") (unit 1) (value "5.1K 0402") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-0000609385d4"
-      (reference "R6") (unit 1) (value "5.1K 0402") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R6") (unit 1) (value "5.1K 0402") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/c8babb31-7ea1-4408-b1ff-2852f4b242b1"
       (reference "U1") (unit 1) (value "Pico") (footprint "EnvExtras:RPi_Pico_SMD_TH_Modified")
