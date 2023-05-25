@@ -26,12 +26,7 @@ _autosave-*
 !*.xml
 !*.csv
 !EnvKB110ADR_*_jlc.csv
-MainPCB-RP2040/EnvKB110ADR-RP2040-backups/
-!EnvKB110ADR-RP2040_cpl_jlc.csv
-!EnvKB110ADR-RP2040_bom_jlc.csv
-!MainPCB-RP2040/_gbr/
-MainPCB-RPI+IOX/EnvKB105-RPI-backups/
-SwitchPlate/110ADR-SwitchPlate-backups/
 MainPCB/EnvKB105-RPI-backups/
 MainPCB - Solder Ver/EnvKB105-RPI-backups/
 !MainPCB - Solder Ver/production/
+SwitchPlate/110ADR-SwitchPlate-backups/
