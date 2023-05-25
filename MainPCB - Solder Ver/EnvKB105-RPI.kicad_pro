@@ -56,7 +56,38 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "hole_clearance|166168750|166500000|590ff4f7-a0cd-4283-b854-41ac7056a5bc|9ae38bb3-c576-4aef-972b-6ced0037c8ba",
+        "hole_clearance|168560000|166500000|4298a47d-1a83-469a-9bd7-dbde3bc69539|1d7550be-248b-4629-91bb-28cf220fef43",
+        "hole_clearance|47125000|166500000|b99cba06-3767-4293-972c-4b3871cc54c5|ede2ce9e-0811-4b2a-bc03-cc444c8a6d92",
+        "hole_clearance|49500000|166500000|13d1c7be-6691-4d1c-8ecb-a455436f4f3e|61d25c69-f64b-4a78-be50-10b111029c67",
+        "hole_clearance|68548750|166500000|00c677e0-f0a9-48df-86a3-7aa2e3fd3c6c|05a568ff-3f87-4e77-be6b-6fd0b84e2c59",
+        "hole_clearance|73320000|166500000|98c61ef4-4428-4bae-abd6-edbb7a9fb6fd|037b49ab-d610-4732-af1d-f6403e1e97af",
+        "hole_near_hole|163480000|166500000|97bb983b-9073-4545-9311-c57674c59d37|9ae38bb3-c576-4aef-972b-6ced0037c8ba",
+        "hole_near_hole|164750000|163960000|590ff4f7-a0cd-4283-b854-41ac7056a5bc|9ae38bb3-c576-4aef-972b-6ced0037c8ba",
+        "hole_near_hole|168560000|166500000|4298a47d-1a83-469a-9bd7-dbde3bc69539|1d7550be-248b-4629-91bb-28cf220fef43",
+        "hole_near_hole|168560000|166500000|4298a47d-1a83-469a-9bd7-dbde3bc69539|8406b3de-79e6-44a2-8f4e-022e123e490a",
+        "hole_near_hole|168560000|166500000|4298a47d-1a83-469a-9bd7-dbde3bc69539|9ae38bb3-c576-4aef-972b-6ced0037c8ba",
+        "hole_near_hole|240000000|166500000|636c8ce3-570f-4690-b73b-3ebe579a54f7|7cd7328f-d788-4971-afd2-de2d09d11701",
+        "hole_near_hole|240000000|166500000|636c8ce3-570f-4690-b73b-3ebe579a54f7|dc673a92-2310-4a0c-b212-d702c2b5bacc",
+        "hole_near_hole|245080000|166500000|69511eaa-03b4-450e-acf6-22b1d1ad53dd|7cd7328f-d788-4971-afd2-de2d09d11701",
+        "hole_near_hole|289982000|120775000|c466dca3-610d-414e-9a7e-1ee79b71e91b|b30ac84c-f28b-43bd-a52a-404339061ff2",
+        "hole_near_hole|304455000|130158000|71c31975-2c45-4d18-a25a-18e07a55d11e|3dbabf5f-ac31-43b0-8d09-4fdbf8dc6563",
+        "hole_near_hole|313858000|120775000|1d08c85e-4e6b-4498-80d5-7bbbd55d6c34|fc89292b-008d-40f8-b0b3-6bced5e528c3",
+        "hole_near_hole|47125000|166500000|b99cba06-3767-4293-972c-4b3871cc54c5|61d25c69-f64b-4a78-be50-10b111029c67",
+        "hole_near_hole|47125000|166500000|b99cba06-3767-4293-972c-4b3871cc54c5|6e58ee54-19a2-456a-8f72-6f706660e1a6",
+        "hole_near_hole|47125000|166500000|b99cba06-3767-4293-972c-4b3871cc54c5|ede2ce9e-0811-4b2a-bc03-cc444c8a6d92",
+        "hole_near_hole|50935000|169040000|13d1c7be-6691-4d1c-8ecb-a455436f4f3e|61d25c69-f64b-4a78-be50-10b111029c67",
+        "hole_near_hole|52205000|166500000|7a8a21b4-2350-49c7-96c3-26badd64b97d|61d25c69-f64b-4a78-be50-10b111029c67",
+        "hole_near_hole|53960000|146800000|218a7bca-1e6f-4087-84a6-6e471ede48df|d213af1b-17c4-4dec-9332-275ffc2ae3c6",
+        "hole_near_hole|65857500|146800000|e77be475-62d4-4364-a358-63c5002ef194|6101236a-7260-47b0-b78c-1513b1b99f57",
+        "hole_near_hole|68548750|166500000|00c677e0-f0a9-48df-86a3-7aa2e3fd3c6c|05a568ff-3f87-4e77-be6b-6fd0b84e2c59",
+        "hole_near_hole|68548750|166500000|00c677e0-f0a9-48df-86a3-7aa2e3fd3c6c|d7505c2a-caca-4038-a363-b37fa00da299",
+        "hole_near_hole|72358750|169040000|98c61ef4-4428-4bae-abd6-edbb7a9fb6fd|037b49ab-d610-4732-af1d-f6403e1e97af",
+        "hole_near_hole|73628750|166500000|d9c2aa57-18b5-4951-91b3-963ce2c231f2|037b49ab-d610-4732-af1d-f6403e1e97af",
+        "hole_near_hole|92050000|166500000|3f3d7e87-3e50-4ff8-b86c-50ebd82f2837|1129c051-ec3b-4eec-8060-0b2134a8214e",
+        "hole_near_hole|97130000|166500000|dd5c3206-e2d8-4b81-82fd-4232ab188724|47e8a0d6-8f89-4fd3-85d6-2cf4bd975187"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -93,9 +124,9 @@
         "padstack": "error",
         "pth_inside_courtyard": "warning",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
-        "silk_over_copper": "ignore",
-        "silk_overlap": "ignore",
+        "silk_edge_clearance": "warning",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
@@ -103,12 +134,12 @@
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
-        "track_dangling": "ignore",
+        "track_dangling": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "warning",
+        "via_dangling": "error",
         "zones_intersect": "error"
       },
       "rule_severitieslegacy_courtyards_overlap": true,
@@ -138,39 +169,39 @@
       "teardrop_options": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 10,
           "td_on_pad_in_zone": false,
           "td_onpadsmd": true,
           "td_onroundshapesonly": false,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onviapad": true
         }
       ],
       "teardrop_parameters": [
         {
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 10,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
-          "td_maxheight": 2.0,
-          "td_maxlen": 1.0,
+          "td_maxheight": 10.0,
+          "td_maxlen": 10.0,
           "td_target_name": "td_round_shape",
           "td_width_to_size_filter_ratio": 0.9
         },
         {
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 10,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
-          "td_maxheight": 2.0,
-          "td_maxlen": 1.0,
+          "td_maxheight": 10.0,
+          "td_maxlen": 10.0,
           "td_target_name": "td_rect_shape",
           "td_width_to_size_filter_ratio": 0.9
         },
         {
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 10,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
-          "td_maxheight": 2.0,
-          "td_maxlen": 1.0,
+          "td_maxheight": 10.0,
+          "td_maxlen": 10.0,
           "td_target_name": "td_track_end",
           "td_width_to_size_filter_ratio": 0.9
         }
