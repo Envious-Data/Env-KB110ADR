@@ -1,4 +1,5 @@
 (fp_lib_table
+  (version 7)
   (lib (name "2.54mmheadercastelation")(type "KiCad")(uri "${KIPRJMOD}/Resources/footprints/2.54mmheadercastelation.pretty")(options "")(descr ""))
   (lib (name "ABM3-12.000MHZ-D2Y-T")(type "KiCad")(uri "${KIPRJMOD}/Resources/footprints/ABM3-12.000MHZ-D2Y-T.pretty")(options "")(descr ""))
   (lib (name "Alps_Only")(type "KiCad")(uri "${KIPRJMOD}/Resources/footprints/Alps_Only.pretty")(options "")(descr ""))
@@ -19,4 +20,5 @@
   (lib (name "W25Q256JVEIQ_TR")(type "KiCad")(uri "${KIPRJMOD}/Resources/footprints/W25Q256JVEIQ_TR.pretty")(options "")(descr ""))
   (lib (name "Mounting_Keyboard_Stabilizer")(type "KiCad")(uri "${KIPRJMOD}/Resources/footprints/Mounting_Keyboard_Stabilizer.pretty")(options "")(descr ""))
   (lib (name "josh-connectors")(type "KiCad")(uri "C:/Users/Envy/Documents/GitHub/Env-KB110ADR/Resources/footprints/josh-kicad-lib/josh-connectors.pretty")(options "")(descr ""))
+  (lib (name "yuiop")(type "KiCad")(uri "${KIPRJMOD}/Resources/footprints/yuiop.pretty")(options "")(descr ""))
 )
