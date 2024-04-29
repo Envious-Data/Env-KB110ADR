@@ -25,8 +25,5 @@ _autosave-*
 # Exported BOM files
 !*.xml
 !*.csv
-!EnvKB110ADR_*_jlc.csv
-MainPCB/EnvKB105-RPI-backups/
-MainPCB - Solder Ver/EnvKB105-RPI-backups/
-!MainPCB - Solder Ver/production/
-SwitchPlate/110ADR-SwitchPlate-backups/
+
+/*/*-backups/*.zip

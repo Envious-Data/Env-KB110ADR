@@ -103,7 +103,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "ignore",
-        "starved_thermal": "error",
+        "starved_thermal": "warning",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -441,7 +441,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "EnvKB105-RPI.kicad_pro",
+    "filename": "EnvKB105.kicad_pro",
     "version": 1
   },
   "net_settings": {
